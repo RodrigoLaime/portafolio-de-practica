@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Courier Prime', monospace;
+font-family: 'Oswald', sans-serif; */
+html {
+    font-size: 62.5%;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+header {
+    width: 100vw;
+    height: auto;
+    background-color: red;
+}
+header .title {
+    width: 100%;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: 'Courier Prime', monospace;
+    color: white;
+}
+
+
+
+
+
+.containe-main--top {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 15px 0;
+    background: linear-gradient( to right, black 0%, black 50%, rgba(255, 0, 0, 0.6)
+     50%, rgba(255, 0, 0, 0.6) 100%);
+}
+.container-text {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    color: white;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 1.2rem;
+    
+}
+.container-text h3{
+    margin-bottom: 5px;
+}

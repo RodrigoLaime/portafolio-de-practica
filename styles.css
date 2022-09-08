@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --color-verde: rgb(9, 214, 9);
+  --color-verdeOscuro: rgb(29, 196, 29);
+  --font-family--letra: "Lexend Deca", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+#inactive {
+  display: none;
+}
+/* HEADER---------------------------------------------------- */
+header {
+  width: 100vw;
+  height: 40rem;
+  background-image: url("https://images.unsplash.com/photo-1523828469188-8ec2b90b6490?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-menu {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+.container-menu a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  color: black;
+  margin: 0 5px;
+}
+.container-menu .borde {
+  border-right: 2px solid rgb(0, 0, 0);
+}
+
+.container-header-perfil {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.perfil-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5rem;
+  padding: 10px;
+  width: 70%;
+}
+.perfil-alone {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+/* menu header*/
+.header--menu {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: auto;
+  height: auto;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+.header--menu a {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+.header--menu .bord {
+  border-bottom: 1px solid gray;
+}
+.logo {
+  font-size: 7rem;
+  color: black;
+}
+/* MAIN--------------------------------- */
+main {
+  width: 100vw;
+  height: auto;
+  font-family: "Lexend Deca", sans-serif;
+  padding-bottom: 10px;
+  background-image: linear-gradient(180deg, rgb(0, 187, 0), black);
+
+  /* background-image: url("https://w0.peakpx.com/wallpaper/541/553/HD-wallpaper-biohazard-green-apple-game-gamer-gaming-realme-samsung.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+/* Formulario------------------------- */
+.continer-form--contet {
+  width: 100vw;
+  height: auto;
+  /*  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.container-form {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-form .form {
+  width: 50%;
+  text-align: center;
+}
+.container-form input {
+  width: 100%;
+  height: auto;
+  border: none;
+  font-size: 1.4rem;
+  padding: 8px;
+  border-bottom: 1px solid grey;
+  font-family: var(--font-family--letra);
+  background: none;
+}
+.container-form button {
+  background-color: grey;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  padding: 3px 10px;
+  font-family: var(--font-family--letra);
+}
+.container-contac {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  /* margin-bottom: 10px; */
+  color: gray;
+}
+.contac-text {
+  border-right: 2px solid gray;
+  width: 7rem;
+}
+.container-contac .contac-icon {
+  align-items: center;
+}
+.contac-icon a,
+i {
+  font-size: 1.3rem;
+  margin-left: 1.5rem;
+  color: gray;
+}
+/* container-main--acerca -------*/
+
+.container-main--acerca {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, black, rgb(3, 167, 3));
+  color: white;
+  /* padding: 10px; */
+  border-top: 4px solid rgba(0, 0, 0, 0.459);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.459);
+}
+.main-perfil--img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-perfil--img {
+  width: 50%;
+  height: 30rem;
+  background-image: url("https://i.pinimg.com/736x/5e/6f/60/5e6f60e4adb8e30912a0e1566e0847ed.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container-perfil-acerca {
+  margin-bottom: 10px;
+}
+
+.main-perfil--text {
+  width: 50%;
+  padding: 5px;
+  border-left: 4px solid rgba(0, 0, 0, 0.459);
+}
+/* trabajo img---------------------- */
+
+/* FOOTER---------------- -----------*/
+footer {
+  width: 100vw;
+  height: 3rem;
+  background: rgb(41, 41, 41);
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.1rem;
+  color: white;
+  margin-top: 10pxs;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
