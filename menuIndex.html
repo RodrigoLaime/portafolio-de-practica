@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="menu-flotante">
+      <a href="">About me</a>
+      <a href="">Works</a>
+      <a href="">Contacto</a>
+      <a href="">Education</a>
+      <a href="" class="no">Blog</a>
+    </div>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: gray;
+      }
+      .menu-flotante {
+        width: 150px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        padding: 5px;
+      }
+      .menu-flotante a {
+        width: 60%;
+        padding: 8px;
+        font-size: 0.9rem;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        border-bottom: 1px solid white;
+        font-family: var()
+        cursor: pointer;
+      }
+      .menu-flotante .no {
+        border: none;
+      }
+    </style>
+  </body>
+</html>
