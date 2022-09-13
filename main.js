@@ -6,12 +6,12 @@ const arrow = document.querySelector(".arrow");
 iconoMenu.addEventListener("click", cerrarmenu());
 arrow.addEventListener("click", cerrarmenu2);
 
-/* function cerrarmenu() {
+function cerrarmenu() {
   const menuClosed = menu.classList.contains("inactive");
   if (!menuClosed) {
     menu.classList.add("inactive");
   }
-} */
+}
 function cerrarMenu() {
   const closedMenu = menu.classList.
 }
