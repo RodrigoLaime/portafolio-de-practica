@@ -1,11 +1,11 @@
-const menu = document.querySelector(".menu-flotante");
+const menuFlotante = document.querySelector("#menu1");
 const iconoMenu = document.querySelector(".menu");
 
-const arrow = document.querySelector(".arrow");
+const arrow = document.querySelector('.arrow');
 
-iconoMenu.addEventListener("click", cerrarmenu());
-arrow.addEventListener("click", cerrarmenu2);
+iconoMenu.addEventListener('click', abrirMenu)
 
+<<<<<<< HEAD
 function cerrarmenu() {
   const menuClosed = menu.classList.contains("inactive");
   if (!menuClosed) {
@@ -15,6 +15,22 @@ function cerrarmenu() {
 function cerrarMenu() {
   const closedMenu = menu.classList.
 }
+=======
+arrow.addEventListener('click', cerrarMenu)
+
+
+function abrirMenu(evento) {
+  /* const openMenu = menuFlotante.classList.toggle("inactive")
+  if (!openMenu){ */
+    menuFlotante.classList.remove("inactive");
+    evento.preventDefault();
+  }
+/* permite omitir recargargar automaticamente la pagina */
+/* } */
+function cerrarMenu(){
+    menuFlotante.classList.add('inactive')
+  }
+>>>>>>> 542f061305d0057bb9db1545bb323703c586aaeb
 /* z
 z
 z

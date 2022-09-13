@@ -23,6 +23,13 @@ body {
   background-color: black;
   overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(4, 0, 255, 0);
+}
+body::-webkit-scrollbar-thumb {
+  background:  rgba(173, 14, 14, 0.6);
+}
 .header {
   width: 100%;
   background-image: linear-gradient(180deg, black, rgba(255, 0, 0, 0.671));
@@ -121,7 +128,7 @@ nav a {
   cursor: pointer;
 }
 /* menu-flotante */
-.menu-flotante {
+#menu-flotante {
   width: 230px;
   height: auto;
   display: flex;
@@ -142,7 +149,7 @@ nav a {
   justify-content: flex-end;
   font-size: 1.6rem;
 }
-.menu-flotante a {
+#menu-flotante a {
   width: 60%;
   padding: 8px;
   font-size: 1.2rem;
@@ -154,7 +161,7 @@ nav a {
   border-left: 0;
   cursor: pointer;
 }
-.menu-flotante .no {
+#menu-flotante .no {
   border: none;
 }
 /* MAIN--------------------------------------------- */
@@ -245,6 +252,14 @@ main {
   display: flex;
   gap: 10px;
   padding: 10px 10px;
+}
+.container-trabajos::-webkit-scrollbar {
+  height: 10px;
+  background-color: rgba(0, 255, 21, 0);
+
+}
+.container-trabajos::-webkit-scrollbar-thumb {
+  background:  rgba(173, 14, 14, 0.6);
 }
 .container-trabajos .img-trabajos {
   width: 320px;
